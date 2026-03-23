@@ -11,4 +11,8 @@ public class AiCodeView {
     public static boolean isPositive(int num) {
         return num < 0;
     }
+    
+    public static int getMax(int a, int b) {
+        return a < b ? a : b;
+    }
 }
